@@ -1,0 +1,113 @@
+body {
+  overflow: hidden;
+  background-color: #e8e8e8;
+}
+
+.time-container {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  text-align: right;
+  border: 0px none;
+}
+
+.time-title {
+  margin-right: 5rem;
+}
+
+.check-btn {
+  margin-top: 10px;
+}
+
+.pagination-btns {
+  margin-top: 20px;
+}
+
+.lower-radio {
+  margin-bottom: 10px;
+}
+
+.welcome {
+  margin-top: 30px;
+}
+
+.quizresults {
+  margin: auto;
+  margin-top: 150px;
+  width: 50%;
+  padding: 10px;
+}
+
+#section1 {
+  height: 100vh;
+}
+
+#section2 {
+  height: 100vh;
+}
+
+.show-result-btn {
+  float: right;
+}
+
+#index-section1 {
+  height: 100%;
+}
+
+#index-section2 {
+  height: 100vh;
+}
+
+.categoryButton {
+  margin-top: 100px;
+  margin-left: 40%;
+  width: 20%;
+}
+
+.indexStartButton {
+  margin-left: 40%;
+  width: 20%;
+}
+
+.instructions {
+  margin: 0;
+  padding: 0;
+}
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+  /* .signout-btn {
+    padding-left: 130px;
+  } */
+}
+
+@media all and (max-width: 480px) {
+  .signout-btn {
+    margin-left: 2px !important;
+  }
+  .user-name {
+    font-size: 18px;
+    padding-left: 2px !important;
+    margin-left: 2px;
+  }
+  .navbar-brand {
+    font-size: 15px;
+    padding-left: 1px !important;
+  }
+  .quizresults {
+    margin: auto;
+    margin-top: 150px;
+    width: 90%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,64 @@
+{% extends 'quiz/base.html' %} {% load static %}{% block title %}Home{% endblock title %} {% block content %}
+
+<div class="container mt-5">{% include 'quiz/messages.html' %}</div>
+
+<div id="index-section1">
+  <a href="#index-section2" class="btn btn-info btn-sm categoryButton" id="start-btn"
+    >Start Quiz</a
+  >
+
+  <div class="row">
+    <!--Grid column-->
+    <div class="col-md-11 mb-4 mt-5 ml-lg-5">
+      <p class="instructions"><b>Please read the instructions :</b></p>
+      <ul class="list-group">
+        <li class="list-group-item">
+          <div class="md-v-line"></div>
+          <i class="fas fa-laptop mr-5"></i>I. Click on "Start Quiz".
+        </li>
+        <li class="list-group-item">
+          <div class="md-v-line"></div>
+          <i class="fas fa-bomb mr-5"></i>II. Select the quiz category that you want to take
+        </li>
+        <li class="list-group-item">
+          <div class="md-v-line"></div>
+          <i class="fas fa-code mr-5"></i>III. All the questions are compulsory.
+          Select your answer before clicking "Check" button
+        </li>
+        <li class="list-group-item">
+          <div class="md-v-line"></div>
+          <i class="far fa-gem mr-5"></i>IV. Click "Finish" button once done to view your result.
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="index-section2">
+    <div class="container mt-5 pt-5">
+      <h4 class="text-center mt-lg-5">Select a category</h4>
+      <div class="row mt-lg-5">
+        <div class="col">
+          {% for category in categories %}
+          <p class="text-center"><a href="{% url "take_quiz" category.id %}" class="btn btn-primary" id=""
+            >{{category.category}}</a
+          ></p>
+
+          {% empty %}
+          <p>No Categories found</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    <footer class="mr-lg-5 mt-3 text-center">
+      <p>Submitted By: Martin Romario Ntuwa</p>
+      <p>
+        GitHub:
+        <a
+          href="https://github.com/martinromario55"
+          target="_blank"
+          >Django-Quiz-App</a
+        >
+      </p>
+    </footer>
+  </div>
+{% endblock content %}
