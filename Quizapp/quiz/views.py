@@ -16,8 +16,8 @@ import json
 
 
 # Create your views here.
-def home(request):
-    return render(request, 'quiz/home.html')
+# def home(request):
+#     return render(request, 'quiz/home.html')
 
 
 class RegistrationView(View): 

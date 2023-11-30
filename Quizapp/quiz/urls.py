@@ -5,7 +5,7 @@ from .views import home, RegistrationView, UsernameValidationView, EmailValidati
 
 
 urlpatterns = [
-    path('home', home, name='home'),
+    # path('home', home, name='home'),
     
     path('', home_page, name='home_page'),
     path('category/<int:pk>/', take_quiz, name='take_quiz'),
