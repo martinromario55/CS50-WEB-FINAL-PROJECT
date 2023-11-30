@@ -32,35 +32,35 @@ By combining these unique features, addressing technical complexities, and adopt
 
 - Clone the repository
 ```sh
-		git cone https://github.com/martinromario55/CS50-WEB-FINAL-PROJECT.git
+	git cone https://github.com/martinromario55/CS50-WEB-FINAL-PROJECT.git
 ```
 - Open folder
 ```sh
-		cd CS50-WEB-FINAL-PROJECT
+	cd CS50-WEB-FINAL-PROJECT
 ```
 - Create a virtual environment using a terminal or bash
 ```sh
-		python3 -m virtualenv <enter_environment_name> 
+	python3 -m virtualenv <enter_environment_name> 
 ```
 >For windows users, please look for how to create a virtual enviroment on Windows
 - Install the requirements
 ```sh
-		pip install -r requirements.txt
+	pip install -r requirements.txt
 ```
 - cd to the path where ```manage.py``` exists and run the following commands.
 ```sh
-cd Quizapp
+    cd Quizapp
 ```
 - Run the following commands in your terminal
 ```sh
-python manage.py makemigrations
-python manage.py migrate
+    python manage.py makemigrations
+    python manage.py migrate
 
-#creating superuser
-python manage.py createsuperuser
+    #creating superuser
+    python manage.py createsuperuser
 
-#Run development server
-python manage.py runserver
+    #Run development server
+    python manage.py runserver
 ```
 
 ## How to use the APP
