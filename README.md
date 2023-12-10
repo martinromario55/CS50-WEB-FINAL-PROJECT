@@ -2,18 +2,15 @@
 
 Welcome to my final CS50 Web project, an innovative quiz web app designed to revolutionize the way users engage with knowledge assessment. Whether you're a student preparing for exams or a lifelong learner seeking to expand your horizons, This offers a unique and interactive platform for testing and enhancing your knowledge.
 
-### Unique Features
+### Distinctiveness and Complexity
 
 1.  **Interactive User Interface:** This app boasts a sleek and intuitive user interface that seamlessly guides users through the quiz experience. The minimalist design ensures focus on content, while subtle functioning enhance user engagement without compromising simplicity.
 2.  **Adaptive Questioning:** This app goes beyond traditional quizzes by dynamically adjusting question difficulty based on user performance. This adaptive approach ensures that users are consistently challenged, promoting continuous learning and improvement.
 3.  **Real-time Updates:** Experience instant feedback and real-time scoring as you progress through the quiz. The app keeps users motivated by providing immediate results, fostering a sense of accomplishment and encouraging further participation.
 4.  **Gamification Elements:** Engage in friendly competition with friends or global participants through our gamification features. Earn badges for achievements, climb the leaderboard, and unlock special challenges, turning learning into a fun and rewarding experience.
-
-### Technical Complexity
-
-1.  **Backend Complexity:** The backend of this app employs advanced algorithms for question generation and difficulty calibration. Our sophisticated database ensures efficient storage and retrieval of vast question databases, contributing to a seamless user experience.
-2.  **Frontend Dynamics:** Implementing a responsive frontend, this app utilizes asynchronous JavaScript techniques for dynamic content loading. This not only enhances the user interface but also ensures smooth interactions, even with slower internet connections.
-3.  **Security Measures:** User data security is our top priority. I employ robust encryption protocols and secure authentication mechanisms to safeguard user information, for example I use `validate_email 1.3` ensuring a secure and trustworthy environment for knowledge exploration.
+5.  **Backend Complexity:** The backend of this app employs advanced algorithms for question generation and difficulty calibration. Our sophisticated database ensures efficient storage and retrieval of vast question databases, contributing to a seamless user experience.
+6.  **Frontend Dynamics:** Implementing a responsive frontend, this app utilizes asynchronous JavaScript techniques for dynamic content loading. This not only enhances the user interface but also ensures smooth interactions, even with slower internet connections.
+7.  **Security Measures:** User data security is our top priority. I employ robust encryption protocols and secure authentication mechanisms to safeguard user information, for example I use `validate_email 1.3` ensuring a secure and trustworthy environment for knowledge exploration.
 
 ### Technology Stack
 
